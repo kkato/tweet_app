@@ -1,6 +1,7 @@
-# Tweet App
+# tweet_app
 
-Tweet App is a simple social networking app where users can post, view, and delete short messages (tweets). Built with Ruby on Rails, it supports user authentication and basic CRUD operations for tweets.
+Tweet App is a simple social networking app where users can post, view, and delete short messages (tweets). Built with Ruby on Rails, it supports user authentication and basic CRUD operations for tweets.This app was created as part of the [Progate Ruby on Rails course](https://prog-8.com/paths/rails), designed to help learners understand the basics of web application development.
+
 
 ## Features
 
@@ -44,7 +45,7 @@ bundle exec rake db:setup
    rails server
    ```
 
-5. Visit `http://localhost:3000` in your browser to view the app.
+5. Visit http://localhost:3000 in your browser to view the app.
 
 ## Usage
 
