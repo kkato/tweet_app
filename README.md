@@ -1,65 +1,65 @@
 # tweet_app
 
-Tweet App is a simple social networking app where users can post, view, and delete short messages (tweets). Built with Ruby on Rails, it supports user authentication and basic CRUD operations for tweets.
+Tweet Appは、ユーザーが短いメッセージ（ツイート）を投稿、閲覧、削除できるシンプルなソーシャルネットワーキングアプリです。Ruby on Railsで構築されており、ユーザー認証とツイートの基本的なCRUD操作をサポートしています。
 
-This app was created as part of the [Progate Ruby on Rails course](https://prog-8.com/paths/rails), designed to help learners understand the basics of web application development.
+このアプリは、Web アプリケーション開発の基礎を理解するために設計された[Progate Ruby on Rails コース](https://prog-8.com/paths/rails)の一部として作成されました。
 
 
-## Features
+## 機能
 
-- User authentication (Sign up, log in, log out)
-- Post, view, edit, and delete tweets
-- View tweets per user
-- Display a timeline with tweets from all users
+- ユーザー認証（サインアップ、ログイン、ログアウト）
+- ツイートの投稿、閲覧、編集、削除
+- ユーザーごとのツイート表示
+- 全ユーザーのツイートを含むタイムライン表示
 
-## Requirements
+## 必要要件
 
 - Ruby: 3.1.6
 - Rails: 7.0
 
-### Database initialization
+### データベースの初期化
 
 ```
 bundle exec rake db:create
 bundle exec rake db:setup
 ```
 
-## Installation
-1. Clone the repository:
+## インストール
+1. リポジトリをクローン:
    ```
    git clone https://github.com/username/tweet-app.git
    cd tweet-app
    ```
 
-2. Install dependencies:
+2. 依存関係をインストール:
    ```
    bundle install
    ```
 
-3. Set up the database:
+3. データベースをセットアップ:
    ```
    rails db:create
    rails db:migrate
    ```
 
-4. Start the Rails server:
+4. Railsサーバーを起動:
    ```
    rails server
    ```
 
-5. Visit http://localhost:3000 in your browser to view the app.
+5. ブラウザで http://localhost:3000 にアクセスしてアプリを表示します。
 
-## Usage
+## 使い方
 
-- Sign up for an account.
-- Create a new tweet from the homepage.
-- View all tweets on the timeline.
-- Edit or delete your own tweets as needed.
+- アカウントを作成します。
+- ホームページから新しいツイートを作成します。
+- タイムラインで全てのツイートを閲覧します。
+- 必要に応じて自分のツイートを編集または削除します。
 
 
-## Running Tests
+## テストの実行
 
-To run the test suite, use the following command:
+テストスイートを実行するには、以下のコマンドを使用します:
 ```
 rails test
 ```
