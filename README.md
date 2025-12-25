@@ -2,7 +2,7 @@
 
 Tweet Appは、ユーザーが短いメッセージ（ツイート）を投稿、閲覧、削除できるシンプルなソーシャルネットワーキングアプリです。Ruby on Railsで構築されており、ユーザー認証とツイートの基本的なCRUD操作をサポートしています。
 
-このアプリは、Web アプリケーション開発の基礎を理解するために設計された[Progate Ruby on Rails コース](https://prog-8.com/paths/rails)の一部として作成されました。
+[Progate Ruby on Rails コース](https://prog-8.com/paths/rails)の一環で作成しました。
 
 
 ## 機能
